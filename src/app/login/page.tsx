@@ -6,7 +6,7 @@ import { AlertCircle, CheckCircle } from 'lucide-react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Suspense, useEffect, useState } from 'react';
 
-import { checkForUpdates, CURRENT_VERSION, UpdateStatus } from '@/lib/version';
+/* import { checkForUpdates, CURRENT_VERSION, UpdateStatus } from '@/lib/version'; */
 
 import { useSite } from '@/components/SiteProvider';
 import { ThemeToggle } from '@/components/ThemeToggle';
